@@ -17,7 +17,7 @@ public class CounterSwitcher : MonoBehaviour
     public void ClickCounterButton()
     {
         _buttonAnimator.Play(_buttonClick.name);
-        _counter.SwitchCounterState();
+        _counter.SwitchCoroutineState();
         _isLockVisible = !_isLockVisible;
         _lockImage.SetActive(_isLockVisible);
     }
