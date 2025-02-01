@@ -394,7 +394,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 238.06, y: -50.392567}
+  m_AnchoredPosition: {x: 238.06, y: -50.39258}
   m_SizeDelta: {x: 282.15, y: 78.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529162866
@@ -829,7 +829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 47.915047, y: -47.394974}
+  m_AnchoredPosition: {x: 47.91504, y: -47.39499}
   m_SizeDelta: {x: 79.599976, y: 79.60498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945279636
@@ -1125,19 +1125,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2042698216}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2042698220}
-        m_TargetAssemblyTypeName: CounterSwitcher, Assembly-CSharp
-        m_MethodName: ClickCounterButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!95 &2042698219
 Animator:
   serializedVersion: 5
@@ -1174,7 +1162,8 @@ MonoBehaviour:
   _buttonClick: {fileID: 7400000, guid: 6c6a1f3e8673bed4a8cc01eeb26986ec, type: 2}
   _buttonAnimator: {fileID: 2042698219}
   _counter: {fileID: 1549109669}
-  _lockImage: {fileID: 1820390492}
+  _button: {fileID: 2042698218}
+  _lockImage: {fileID: 1820390494}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
